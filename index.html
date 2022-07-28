@@ -10,10 +10,11 @@
     <title>Matouš Burýšek - vedení účetnictví</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 </head>
-<body>
+<body class="container">
 
-    <header>
-        <h1>Matouš Burýšek - vedení účetcnitví</h1>
+    <!-- 1. ROW: HEADER -->
+    <header class="container row text-bg-dark">
+        <h1>Matouš Burýšek - vedení účetnictví</h1>
         <nav>
             <ul>
                 <li>O mně</li>
@@ -23,71 +24,110 @@
         </nav>
     </header>
 
+    <!-- MAIN -->
     <main>
 
-        <section id="vedeni-ucetnictvi">
+         <!-- 2. ROW: JUMBOTRON -->
+        <section id="vedeni-ucetnictvi" class="container row" style="color: white; height: 400px; background-image: url(https://picsum.photos/1200/400?grayscale);">
             <h1>Vedení účetnictví</h1>
             <h2>Daňová evidence, podvojné účetnictví, mzdové účetnictví</h2>
         </section>
 
-        <section id="sluzby">
-            <article id="sluzby-ucetnictvi">
-                <img>
-                <h3>Účetnictví</h3>
-                <h5>vedení podvojného účetnictví</h5>
-                <p>Zpracování podvojného účetnictví pro právnické osoby nebo fyzické osoby vedoucí účetnictví povinně či dobrovolně. Zastupování na příslušných úřadech. Zpracování výkazů pro klienty.</p>
-            </article>
-            <article id="sluzby-mzdove-ucetnictvi">
-                <img>
-                <h3>Mzdové účetnictví</h3>
-                <h5>zpracování mezd od A do Z</h5>
-                <p>Komplexní zpracování mzdové agendy včetně zastupování na příslušných úřadech. Evidence exekucí a insolvence. Poskytování součinnosti pro exekutory a insolvenční správce.</p>
-            </article>
-            <article id="sluzby-danova-evidence">
-                <img>
-                <h3>Daňová evidence</h3>
-                <h5>vedení peněžního deníku</h5>
-                <p>Zpracování daňové evidence pro fyzické osoby vedoucí peněžní deník nebo paušální výdaje.</p>
-            </article>
-            <article id="sluzby-danova-evidence">
-                <img>
-                <h3>Daňové přiznání</h3>
-                <h5>zpracování daňového přiznání</h5>
-                <p>Zpracování daňové evidence pro fyzické osoby vedoucí peněžní deník nebo paušální výdaje.</p>
-            </article>
+        <!-- 3: ROW: SLUŽBY -->
+        <section id="sluzby" class="container row">
+            <div class="container col-md">
+                <article id="sluzby-ucetnictvi" class="row">
+                    <div class="col-1">
+                        <img src="https://picsum.photos/50">
+                    </div>
+                    <div class="col-11">
+                        <h3>Účetnictví</h3>
+                    <h5>vedení podvojného účetnictví</h5>
+                    <p>Zpracování podvojného účetnictví pro právnické osoby nebo fyzické osoby vedoucí účetnictví povinně či dobrovolně. Zastupování na příslušných úřadech. Zpracování výkazů pro klienty.</p>
+                    </div>
+                </article>
+                <article id="sluzby-mzdove-ucetnictvi" class="row">
+                    <div class="col-1">
+                        <img src="https://picsum.photos/50">
+                    </div>
+                    <div class="col-11">
+                        <h3>Mzdové účetnictví</h3>
+                        <h5>zpracování mezd od A do Z</h5>
+                        <p>Komplexní zpracování mzdové agendy včetně zastupování na příslušných úřadech. Evidence exekucí a insolvence. Poskytování součinnosti pro exekutory a insolvenční správce.</p>
+                    </div>
+                </article>
+            </div>
+            <div class="container col-md">
+                <article id="sluzby-danova-evidence" class="row">
+                    <div class="col-1">
+                        <img src="https://picsum.photos/50">
+                    </div>
+                    <div class="col-11">
+                        <h3>Daňová evidence</h3>
+                        <h5>vedení peněžního deníku</h5>
+                        <p>Zpracování daňové evidence pro fyzické osoby vedoucí peněžní deník nebo paušální výdaje.</p>
+                    </div>
+                </article>
+                <article id="sluzby-danova-evidence" class="row">
+                    <div class="col-1">
+                        <img src="https://picsum.photos/50">
+                    </div>
+                    <div class="col-11">
+                        <h3>Daňové přiznání</h3>
+                        <h5>zpracování daňového přiznání</h5>
+                        <p>Zpracování daňové evidence pro fyzické osoby vedoucí peněžní deník nebo paušální výdaje.</p>
+                    </div>
+                </article>
+            </div>
         </section>
 
-        <section id="matous-burysek">
-            <img>
-            <h3>Matouš Burýšek</h3>
+        <!-- 4. ROW: O MNĚ -->
+        <section id="matous-burysek" class="container row text-bg-secondary">
+            <div class="col-md-5">
+                <img src="https://picsum.photos/320/500">
+            </div>
+            <div class="col-md-7">
+                <h3>Matouš Burýšek</h3>
             <h5>zpracování daňového přiznání</h5>
                 <p>V současné době podnikám v oblasti účetních poradců, vedení účetnictví, vedení daňové evidence a zpracování mezd. Při práci využívám účetní software POHODA a pro personalistiku a mzdy software PAMICA.</p>
             <h4>Pracovní zkušenosti</h4>
                 <p>V roce 2018 jsem začínal na pozici junior účetní ve středně velké společnosti, kde jsem zpracovával vydané a přijaté faktury (tuzemské i zahraniční), evidoval majetek a spravoval skladové karty. V oce 2019 jsem přestoupil do účetní společnosti, která poskytovala ekonomické služby pro holding Vendeavour Service, na pozici samostatného účetního.</p>
             <h4>Vzdělávání</h4>
                 <p>V poslední době jsem absolvoval kurzy Roční zúčtování mezd, Zdaňování příjmů ze závislé činnosti a Legislativní aktuality v vzdělávací agentuře INTEGRA CENTRUM, s.r.o. Jsem držitelem příslušných certifikátů.</p>
+            </div>
         </section>
 
-        <section id="poptavka">
+        <!-- 5. ROW TLAČÍTKO -->
+        <section id="poptavka" class="container row text-bg-dark">
             <button>Nezávazně poptat moje služby</button>
         </section>
 
-        <section id="ucetni-software">
-            <article id="software-pohoda">
-                <img>
-                <h3>Účtuji v POHODĚ</h3>
-                <p>Umožňuje vést účetnictví i daňovou evidenci a vyhoví plátcům i neplátcům DPH. Systém je oborově neutrální a je vhodný nejen pro živnostníky, podnikatele a společnosti, které se zabývají obchodem a poskytováním služeb, ale i pro svobodná povolání a účtující příspěvkové a neziskové organizace.</p>            
+        <!-- 6. ROW SOFTWARE -->
+        <section id="ucetni-software" class="container row">
+            <article id="software-pohoda" class="row">
+                <div class="col-2">
+                    <img src="https://picsum.photos/80">
+                </div>
+                <div class="col-10">
+                    <h3>Účtuji v POHODĚ</h3>
+                    <p>Umožňuje vést účetnictví i daňovou evidenci a vyhoví plátcům i neplátcům DPH. Systém je oborově neutrální a je vhodný nejen pro živnostníky, podnikatele a společnosti, které se zabývají obchodem a poskytováním služeb, ale i pro svobodná povolání a účtující příspěvkové a neziskové organizace.</p>            
+                </div>
             </article>
-            <article id="software-pamica">
-                <img>
-                <h3>Personalistika a mzdy v PAMICE</h3>
-                <p>PAMICA je profesionální nástroj na vedení agend personalistiky, pracovních poměrů a zpracování mezd zaměstnanců. Tento software ocení firmy jak s vlastní personální kanceláří, nebo s větším počtem klientů, stejně tak účetní firmy vyžadující profesionální správu dat zaměstnanců a jejich mezd. Práce je možná samostatně ale s případnými exporty závazků a pohledávek do účetního programu POHODA. Aplikace podporuje případné xml importy z docházkových systémů.</p>
+            <article id="software-pamica" class="row">
+                <div class="col-2">
+                    <img src="https://picsum.photos/80">
+                </div>
+                <div class="col-10">
+                    <h3>Personalistika a mzdy v PAMICE</h3>
+                    <p>PAMICA je profesionální nástroj na vedení agend personalistiky, pracovních poměrů a zpracování mezd zaměstnanců. Tento software ocení firmy jak s vlastní personální kanceláří, nebo s větším počtem klientů, stejně tak účetní firmy vyžadující profesionální správu dat zaměstnanců a jejich mezd. Práce je možná samostatně ale s případnými exporty závazků a pohledávek do účetního programu POHODA. Aplikace podporuje případné xml importy z docházkových systémů.</p>
+                </div>
             </article>
         </section>
 
     </main>
 
-    <footer>
+    <!-- 7. ROW: FOOTER -->
+    <footer class="container row text-bg-dark">
         <p>Matouš Burýšek, Hostěradská 249, Dambořice, +420 721 880 875</p>
         <p>Hostěradská 249, Dambořice</p>
         <p>info@ucetnictvi-burysek.cz</p>
