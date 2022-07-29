@@ -13,14 +13,28 @@
 <body class="container">
 
     <!-- 1. ROW: HEADER -->
-    <header class="container row text-bg-dark">
-        <h1>Matouš Burýšek - vedení účetnictví</h1>
-        <nav>
-            <ul>
-                <li>O mně</li>
-                <li>Články</li>
-                <li>Kontakt</li>
-            </ul>
+    <header class="row container text-bg-dark">
+        <nav class="navbar navbar-dark navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+                <div class="d-md-none"><h1>Matouš Burýšek<br>vedení účetnictví</h1></div>
+                <div class="d-none d-md-block"><h1>Matouš Burýšek - vedení účetnictví</h1></div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">O mně</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Články</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontakt</a>
+                    </li> 
+                </ul>
+            </div>
         </nav>
     </header>
 
