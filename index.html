@@ -10,12 +10,13 @@
     <title>Matouš Burýšek - vedení účetnictví</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 <body class="container">
 
     <!-- 1. ROW: HEADER -->
     <header class="row text-bg-dark">
-        <nav class="navbar navbar-dark navbar-expand-lg px-3 px-md-5">
+        <nav class="navbar navbar-dark navbar-expand-lg py-3 px-3 px-md-5">
             <a class="navbar-brand px-3 px-md-2" href="#">
                 <div class="d-md-none"><h1>Matouš Burýšek<br>účetní</h1></div>
                 <div class="d-none d-md-block"><h1>Matouš Burýšek - účetní</h1></div>
@@ -26,7 +27,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-3 ms-md-2 ms-lg-auto mb-2 mb-md-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">O mně</a>
+                        <a class="nav-link" href="#matous-burysek">O mně</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sluzby">Služby</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Články</a>
@@ -54,7 +58,7 @@
         </section>
 
         <!-- 3: ROW: SLUŽBY -->
-        <section id="sluzby" class="row ms-2 ms-md-none">
+        <section id="sluzby" class="row bg-light ms-2 ms-md-none">
             <div class="row px-2 pt-4 pb-3 px-md-5 pb-md-3 pt-md-5">
                 <div class="col-md">
                     <article id="sluzby-ucetnictvi" class="row">
@@ -102,30 +106,36 @@
         </section>
 
         <!-- 4. ROW: O MNĚ -->
-        <section id="matous-burysek" class="row text-bg-secondary">
-            <div class="d-md-none">
-                <h1>Matouš Burýšek</h1>
-                <h5>účetní, mzdový účetní</h5>
+        <section id="matous-burysek" class="row text-bg-secondary text-white p-3 p-md-5">
+            <div class="d-md-none text-center">
+                <h2 class="mb-1">Matouš Burýšek</h2>
+                <h5 class="mb-4"><em>účetní, mzdový účetní</em></h5>
             </div>
-            <div class="col-md-5">
-                <img src="https://picsum.photos/320/500">
+            
+            <div class="col-auto mx-auto">
+                <img class="d-none d-md-block" src="./assets/photos/nahodny-typek.png" width="300">
+                <img class="d-md-none d-md" src="./assets/photos/nahodny-typek.png" width="200">
             </div>
-            <div class="col-md-7">
+            
+            <div class="col">
                 <div class="d-none d-md-block">
-                    <h3>Matouš Burýšek</h3>
-                    <h5>účetní, mzdový účetní</h5>
+                    <h2 class="mb-1">Matouš Burýšek</h2>
+                    <h5 class="mb-4"><em>účetní, mzdový účetní</em></h5>
                 </div>
+
                 <p>V současné době podnikám v oblasti účetních poradců, vedení účetnictví, vedení daňové evidence a zpracování mezd. Při práci využívám účetní software POHODA a pro personalistiku a mzdy software PAMICA.</p>
-                <h4>Pracovní zkušenosti</h4>
+                
+                <h4 class="mt-4 mb-1">Pracovní zkušenosti</h4>
                 <p>V roce 2018 jsem začínal na pozici junior účetní ve středně velké společnosti, kde jsem zpracovával vydané a přijaté faktury (tuzemské i zahraniční), evidoval majetek a spravoval skladové karty. V oce 2019 jsem přestoupil do účetní společnosti, která poskytovala ekonomické služby pro holding Vendeavour Service, na pozici samostatného účetního.</p>
-                <h4>Vzdělávání</h4>
+                
+                <h4 class="mt-4 mb-1">Vzdělávání</h4>
                 <p>V poslední době jsem absolvoval kurzy Roční zúčtování mezd, Zdaňování příjmů ze závislé činnosti a Legislativní aktuality v vzdělávací agentuře INTEGRA CENTRUM, s.r.o. Jsem držitelem příslušných certifikátů.</p>
             </div>
         </section>
 
         <!-- 5. ROW TLAČÍTKO -->
-        <section id="poptavka" class="row text-bg-dark">
-            <button>Nezávazně poptat moje služby</button>
+        <section id="poptavka" class="text-center bg-light p-5">
+            <button class="btn btn-primary btn-lg text-uppercase">Nezávazně poptat moje služby</button>
         </section>
 
         <!-- 6. ROW SOFTWARE -->
@@ -153,11 +163,86 @@
     </main>
 
     <!-- 7. ROW: FOOTER -->
-    <footer class="row text-bg-dark">
-        <p>Matouš Burýšek, Hostěradská 249, Dambořice, +420 721 880 875</p>
-        <p>Hostěradská 249, Dambořice</p>
-        <p>info@ucetnictvi-burysek.cz</p>
-        <p>+420 721 880 875</p>
+    <footer class="row bg-dark text-center text-white">
+        <div class="container p-4">
+          <section class="mb-4">
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                <i class="bi bi-google"></i>
+            </a>
+          </section>
+      
+          <section>
+            <form action="">
+              <div class="row d-flex justify-content-center">
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Máte nezávazný zájem o mé služby?</strong>
+                  </p>
+                </div>
+
+                <div class="col-md-5 col-12">
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example21" class="form-control" />
+                    <label class="form-label" for="form5Example21">e-mailová adresa</label>
+                  </div>
+                </div>
+
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Mám zájem o služby
+                  </button>
+                </div>
+              </div>
+            </form>
+          </section>
+          <section>
+            <div class="row">
+              <div class="col-md-4 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Právní předpisy</h5>
+      
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="https://www.zakonyprolidi.cz/cs/1991-563" class="text-white" target=”_blank”>zákon o účetnictví</a>
+                  </li>
+                  <li>
+                    <a href="https://www.zakonyprolidi.cz/cs/1992-586" class="text-white" target=”_blank”>zákon o daních z příjmů</a>
+                  </li>
+                  <li>
+                    <a href="https://www.zakonyprolidi.cz/cs/2004-235" class="text-white" target=”_blank”>zákon o dani z přidané hodnoty</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-md-4 mb-4 mb-md-0">
+                <h5 class="text-uppercase">KONTAKTUJTE MĚ</h5>
+      
+                <i class="bi bi-envelope"></i>&nbsp; info@ucetnictvi-burysek.cz<br>
+                <i class="bi bi-telephone"></i>&nbsp; +420 721 880 875
+              </div>
+
+              <div class="col-md-4 mb-4 mb-md-0">
+                <h5 class="text-uppercase">INFORMACE O PODNIKATELI</h5>
+                    Matouš Burýšek</br>
+                    IČO: 08498181</br>
+                    Soudní 467/1</br>
+                    602 00 BRNO</br>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            Vít Křížka © 2022 Copyright
+        </div>
     </footer>
 
     <script src="bootstrap/js/bootstrap.js"></script>
