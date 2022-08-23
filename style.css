@@ -9,7 +9,6 @@
 /* pozadí textu v jumbotronu */
 .jumbotron-text {
     text-shadow: 0 0 10px white;
-    /* background-color: beige; */
 }
 
 .text-secondary {
@@ -20,14 +19,14 @@
     font-size: large;
 }
 
-/* h2, h4 {
-    margin-bottom: 0px;
-} */
-
-/* h4 {
-    margin-top: 30px;
-} */
-
 h5 {
     font-weight: normal;
+}
+
+a {
+   text-decoration: none; 
+}
+
+a:hover {
+    font-weight: bolder; 
 }
