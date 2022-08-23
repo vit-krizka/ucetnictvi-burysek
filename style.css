@@ -1,6 +1,13 @@
+/* obrázek na pozadí v jumbotronu */
 #vedeni-ucetnictvi {
     background-image: url("./assets/images/matous-burysek-ucetnictvi-Brno.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+/* pozadí textu v jumbotronu */
+.jumbotron-text {
+    text-shadow: 0 0 10px white;
+    /* background-color: beige; */
 }
