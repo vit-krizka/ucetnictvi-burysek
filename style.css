@@ -35,7 +35,7 @@ a:hover {
     font-weight: bolder; 
 }
 
-/* kotaktní okno - nevyužívá Bootstrap */
+/* kontaktní okno - nevyužívá Bootstrap */
 
 #window-contact {
     display: none;
@@ -48,4 +48,4 @@ a:hover {
     border: 5px solid black;
 }
 
-/* CSS v mobilní verzi */
+/* CSS v mobilní verzi ??? window contact musí mít jiné rozměry */
