@@ -19,6 +19,10 @@
     font-size: large;
 }
 
+h1, h2, h3, h4, h5 {
+    /* font-family: 'Oswald', sans-serif; */
+}
+
 h5 {
     font-weight: normal;
 }
@@ -30,3 +34,18 @@ a {
 a:hover {
     font-weight: bolder; 
 }
+
+/* kotaktní okno - nevyužívá Bootstrap */
+
+#window-contact {
+    display: none;
+    position: fixed;
+    top: 17%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+    background-color: rgb(231, 231, 231);
+    border: 5px solid black;
+}
+
+/* CSS v mobilní verzi */
