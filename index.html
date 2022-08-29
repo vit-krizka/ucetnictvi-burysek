@@ -275,6 +275,7 @@
     </footer>
 
     <!-- WINDOW: CONTACT -->
+
     <div id="window-contact" class="container p-5">
         <h2 class="text-center">Máte zájem o mé služby?</h2>
         <p class="text-center">Vyplňte své kontaktní údaje a v nejbližší době se Vám ozvu. Zjistíme, jestli bychom spolu mohli spolupracovat.</p>
@@ -296,11 +297,12 @@
                 <input type="checkbox" class="form-check-input" id="check">
                 <label class="form-check-label" for="check">Beru na vědomí, že odobní údaje budou použity pouze za účelem nabídky účetních služeb, a to maximálně po dobu jednoho měsíce.</label>
             </div>
-            <button type="submit" class="btn btn-dark text-uppercase">Odeslat</button>
+            <div class="text-center">
+                <button type="submit" class="btn btn-dark btn-lg text-uppercase">Odeslat</button>
+            </div>
         </form>
 
-        <div id="close-button" onclick="closeContactBox()"><i class="bi bi-x-lg"></i></div>
-        <!-- <button type="button" class="btn-close btn-close-white" aria-label="Close"></button> -->
+        <div id="close-button" onclick="closeContactBox()" aria-label="Zavřít okno"><i class="bi bi-x-lg"></i></div>
     </div>
 
     <script src="/bootstrap/js/bootstrap.js"></script>
