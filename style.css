@@ -28,12 +28,16 @@ h5 {
     font-weight: normal;
 }
 
+/* změna odkazů */
+
 a {
-   text-decoration: none; 
+    color: white;
+    text-decoration: none; 
 }
 
 a:hover {
     font-weight: bolder; 
+    color: rgb(44, 112, 244);
 }
 
 /* kontaktní okno - nevyužívá Bootstrap */
