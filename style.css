@@ -48,9 +48,30 @@ a:hover {
     top: 17%;
     left: 20%;
     width: 60%;
-    height: 60%;
-    background-color: rgb(231, 231, 231);
-    border: 5px solid black;
+    background-color: hsl(220, 90%, 56%);
+    border-radius: 15px;
+    /* box-shadow: 0 0 50px hsl(220, 90%, 56%), 0 0 30px hsl(220, 90%, 56%), 0 0 10px hsl(220, 90%, 56%); */
+    color: white;
+}
+
+#close-button {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: xx-large;
+    color: black;
+    /* font-weight: bold; */
+    cursor: pointer;
+}
+
+#close-button:hover {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: xx-large;
+    color: wh;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 #matous-burysek, #ucetni-software {

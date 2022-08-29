@@ -271,13 +271,31 @@
     </footer>
 
     <!-- WINDOW: CONTACT -->
-    <div id="window-contact" class="container">
-        <p>Máte zájem o mé služny?</p>
-        <p>Vyplňte své kontaktní údaje a v nejbližší době se Vám ozvu. Zjistíme, jestli bychom spolu mohli spolupracovat.</p>
+    <div id="window-contact" class="container p-5">
+        <h2 class="text-center">Máte zájem o mé služny?</h2>
+        <p class="text-center">Vyplňte své kontaktní údaje a v nejbližší době se Vám ozvu. Zjistíme, jestli bychom spolu mohli spolupracovat.</p>
+        
         <form>
-
+            <div class="mb-3">
+                <label for="name" class="form-label">Jméno a příjmení:</label>
+                <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mailová adresa</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Telefonní číslo:</label>
+                <input type="tel" class="form-control" id="phone">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Beru na vědomí Zásady ochrany osobních údajů.</label>
+            </div>
+            <button type="submit" class="btn btn-dark text-uppercase">Odeslat</button>
         </form>
 
+        <div id="close-button" onclick="closeContactBox()">╳</div>
     </div>
 
     <script src="./bootstrap/js/bootstrap.js"></script>
