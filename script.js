@@ -18,8 +18,8 @@ function changeLogoToColor() {
     let textLong = document.getElementById("logoTextLong");
     
     image.src = "/assets/images/logo-color.png";
-    textShort.style.color = "grey";
-    textLong.style.color = "grey";
+    textShort.style.color = "hsl(220, 90%, 56%)";
+    textLong.style.color = "hsl(220, 90%, 56%)";
 }
 
 function changeLogoBack() {
