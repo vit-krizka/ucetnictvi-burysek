@@ -21,23 +21,27 @@
 
     <header class="row text-bg-dark">
       <nav class="navbar navbar-dark navbar-expand-lg py-3 px-3 px-md-5">
+          <!-- brand - mobile variant -->
           <a class="navbar-brand d-md-none px-3 px-md-2" href="/index.html">
-              <h1>Účetnictví<br>Matouš Burýšek</h1>
+              <h1 id="logoTextShort">Účetnictví<br>Matouš Burýšek</h1>
           </a>
-          <a class="navbar-brand d-none d-md-block px-3 px-md-2" href="/index.html">
-              <img class="d-inline-block align-text-top" src="/assets/images/logo.png" height="50">
-              <h1 class="d-inline-block align-text-top ms-3">Účetnictví Matouš Burýšek</h1>
+          <!-- brand - PC variant -->
+          <a class="navbar-brand d-none d-md-block pt-2 px-3 px-md-2" id="navbar-brand" href="/index.html">
+              <img class="d-inline-block align-text-top" id="logoImage" src="/assets/images/logo.png" height="45">
+              <h1 class="d-inline-block align-text-top ms-3" id="logoTextLong">Účetnictví Matouš Burýšek</h1>
           </a>
+
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-3 ms-md-2 ms-lg-auto mb-2 mb-md-0">
                   <li class="nav-item">
-                      <a class="nav-link" href="/index.html#matous-burysek">O mně</a>
+                      <a class="nav-link" href="#matous-burysek">O mně</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="/index.html#sluzby">Služby</a>
+                      <a class="nav-link" href="#sluzby">Služby</a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="/pages/clanky.html">Články</a>
@@ -48,7 +52,7 @@
               </ul>
           </div>
       </nav>
-  </header>
+    </header>
 
     <!-- MAIN -->
     <main>
