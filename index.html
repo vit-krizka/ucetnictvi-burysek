@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="container">
 
@@ -24,8 +24,8 @@
             <a class="navbar-brand d-md-none px-3 px-md-2" href="/index.html">
                 <h1>Účetnictví<br>Matouš Burýšek</h1>
             </a>
-            <a class="navbar-brand d-none d-md-block px-3 px-md-2" href="/index.html">
-                <img class="d-inline-block align-text-top" src="/assets/images/logo.png" height="50">
+            <a class="navbar-brand d-none d-md-block pt-2 px-3 px-md-2" href="/index.html">
+                <img class="d-inline-block align-text-top" src="/assets/images/logo.png" height="45">
                 <h1 class="d-inline-block align-text-top ms-3">Účetnictví Matouš Burýšek</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,10 +40,10 @@
                         <a class="nav-link" href="#sluzby">Služby</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/clanky.html">Články</a>
+                        <a class="nav-link" href="/pages/clanky.html">Články</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/kontakt.html">Kontakt</a>
+                        <a class="nav-link" href="/pages/kontakt.html">Kontakt</a>
                     </li> 
                 </ul>
             </div>
@@ -130,7 +130,7 @@
             
             <div class="col-md">
                 <div class="d-none d-md-block">
-                    <h2 class="mb-1">Matouš Burýšek</h2>
+                    <h2 class="mb-1"><span class="word-background">Matouš Burýšek</span></h2>
                     <h5 class="mb-4"><em>účetní, mzdový účetní</em></h5>
                 </div>
 
@@ -150,8 +150,8 @@
         <!-- 5. ROW TLAČÍTKO -->
 
         <section id="poptavka" class="row bg-light py-5">
-            <div class="d-grid gap-2 col-8 col-md-4 mx-auto">
-                <button class="btn btn-primary btn-lg text-uppercase" onclick="openContactBox()">Nezávazně poptat účetní služby</button>
+            <div class="d-grid gap-2 col-8 col-md-5 mx-auto">
+                <button class="btn btn-primary btn-lg text-uppercase fw-bold" onclick="openContactBox()"><h3 class="pt-2">Nezávazně poptat účetní služby</h3></button>
             </div>
         </section>
 
@@ -165,18 +165,18 @@
                     <img src="./assets/images/POHODA-box.png" alt="logo POHODA - účetní software" width="200">
                 </div>
                 <div class="col-md">
-                    <div class="d-none d-md-block"><h3><span class="text-primary">► </span>Účtuji v POHODĚ</h3></div>
+                    <div class="d-none d-md-block"><h3><span class="text-primary">► </span>Účtuji v <span class="word-background">POHODĚ</span></h3></div>
                     <p>POHODA umožňuje vést účetnictví i daňovou evidenci a vyhoví plátcům i neplátcům DPH. Systém je oborově neutrální a je vhodný nejen pro živnostníky, podnikatele a společnosti, které se zabývají obchodem a poskytováním služeb, ale i pro svobodná povolání a účtující příspěvkové a neziskové organizace.</p>            
                 </div>
             </article>
             <article id="software-pamica" class="row">
-                <div class="d-md-none text-center"><h3><span class="text-primary">► </span>Mzdy v PAMICE</h3></div>
+                <div class="d-md-none text-center"><h3><span class="text-primary">► </span>Mzdy v <span class="word-background">PAMICE</span></h3></div>
                 <img class="d-md-none px-5" src="./assets/images/PAMICA-box.png" alt="logo PAMICA - software pro mzdové účetnictví" width="200">
                 <div class="d-none d-md-block col-md-auto mx-auto">
                     <img src="./assets/images/PAMICA-box.png" alt="logo PAMICA - software pro mzdové účetnictví" width="200">
                 </div>
                 <div class="col-md">
-                    <div class="d-none d-md-block"><h3><span class="text-primary">► </span>Personalistika a mzdy v PAMICE</h3></div>
+                    <div class="d-none d-md-block"><h3><span class="text-primary">► </span>Personalistika a mzdy v <span class="word-background">PAMICE</span></h3></div>
                     <p>PAMICA je profesionální nástroj na vedení agend personalistiky, pracovních poměrů a zpracování mezd zaměstnanců. Tento software ocení firmy jak s vlastní personální kanceláří, nebo s větším počtem klientů, stejně tak účetní firmy vyžadující profesionální správu dat zaměstnanců a jejich mezd. Práce je možná samostatně ale s případnými exporty závazků a pohledávek do účetního programu POHODA. Aplikace podporuje případné xml importy z docházkových systémů.</p>
                 </div>
             </article>
@@ -248,7 +248,7 @@
               </div>
 
               <div class="col-md-4 mb-4 mb-md-0">
-                <h5 class="text-uppercase fw-bold">KONTAKTUJTE MĚ</h5>
+                <h5 class="text-uppercase fw-bold">Kontaktuje mě</h5>
       
                 <i class="bi bi-envelope"></i>&nbsp; <a href="mailto:info@ucetnictvi-burysek.cz">info@ucetnictvi-burysek.cz</a><br>
                 <i class="bi bi-house"></i>&nbsp; <address class="d-inline"><a href="https://goo.gl/maps/8BHBp8RZEeXn9wsz9" target=”_blank”>Cejl 467/65, 602 00 Brno</a></address><br>
@@ -256,7 +256,7 @@
               </div>
 
               <div class="col-md-4 mb-4 mb-md-0">
-                <h5 class="text-uppercase fw-bold">INFORMACE O PODNIKATELI</h5>
+                <h5 class="text-uppercase fw-bold">Informace o podnikateli</h5>
                     Matouš Burýšek</br>
                     vedení účetnictví</br>
                     IČO: 08498181</br>
@@ -272,7 +272,7 @@
 
     <!-- WINDOW: CONTACT -->
     <div id="window-contact" class="container p-5">
-        <h2 class="text-center">Máte zájem o mé služny?</h2>
+        <h2 class="text-center">Máte zájem o mé služby?</h2>
         <p class="text-center">Vyplňte své kontaktní údaje a v nejbližší době se Vám ozvu. Zjistíme, jestli bychom spolu mohli spolupracovat.</p>
         
         <form>
@@ -289,13 +289,14 @@
                 <input type="tel" class="form-control" id="phone">
             </div>
             <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Beru na vědomí Zásady ochrany osobních údajů.</label>
+                <input type="checkbox" class="form-check-input" id="check">
+                <label class="form-check-label" for="check">Beru na vědomí, že odobní údaje budou použity pouze za účelem nabídky účetních služeb, a to maximálně po dobu jednoho měsíce.</label>
             </div>
             <button type="submit" class="btn btn-dark text-uppercase">Odeslat</button>
         </form>
 
-        <div id="close-button" onclick="closeContactBox()">╳</div>
+        <div id="close-button" onclick="closeContactBox()"><i class="bi bi-x-lg"></i></div>
+        <!-- <button type="button" class="btn-close btn-close-white" aria-label="Close"></button> -->
     </div>
 
     <script src="./bootstrap/js/bootstrap.js"></script>

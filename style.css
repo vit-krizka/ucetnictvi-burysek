@@ -21,14 +21,24 @@
 }
 
 h1, h2, h3, h4, h5 {
-    /* font-family: 'Oswald', sans-serif; */
+    font-family: 'Signika Negative', sans-serif;
 }
 
 h5 {
     font-weight: normal;
 }
 
-/* změna odkazů */
+/* modré zbýraznění některých slov */
+
+.word-background {
+    margin: 0px auto 0px auto;
+    border-radius: 3px;
+    padding: 2px 8px;
+    background-color:hsl(220, 90%, 56%);
+    color: white;
+}
+
+/* změna stylu odkazů */
 
 a {
     color: white;
@@ -37,7 +47,23 @@ a {
 
 a:hover {
     font-weight: bolder; 
-    color: rgb(44, 112, 244);
+    color: hsl(220, 90%, 56%);
+}
+
+/* stejná výška všech karet článk */
+
+.card {
+    height: 440px;
+}
+
+/* šedé pohybující se pozadí v některých sekcích */
+
+#matous-burysek, #ucetni-software {
+    background-image: url("/assets/images/grey-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /* kontaktní okno - nevyužívá Bootstrap */
@@ -65,21 +91,8 @@ a:hover {
 }
 
 #close-button:hover {
-    position: absolute;
-    top: 5px;
-    right: 15px;
-    font-size: xx-large;
-    color: wh;
+    color: white;
     font-weight: bold;
-    cursor: pointer;
-}
-
-#matous-burysek, #ucetni-software {
-    background-image: url("/assets/images/grey-bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 /* CSS v mobilní verzi ??? window contact musí mít jiné rozměry */
