@@ -7,8 +7,9 @@
 }
 
 /* pozadí textu v jumbotronu */
-.jumbotron-text {
-    text-shadow: 0 0 10px white;
+#vedeni-ucetnictvi p {
+    /* text-shadow: 1px 1px white, -1px 1px white, 1px -1px white, -1px -1px white, 0 0 10px white, 0 0 5px white; */
+    text-shadow: 0 0 10px white, 0 0 5px white,  0 0 1px white;
 }
 
 .text-secondary {
@@ -46,6 +47,14 @@ a:hover {
     height: 60%;
     background-color: rgb(231, 231, 231);
     border: 5px solid black;
+}
+
+#matous-burysek, #ucetni-software {
+    background-image: url("/assets/images/grey-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 /* CSS v mobilní verzi ??? window contact musí mít jiné rozměry */
