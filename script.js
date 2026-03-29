@@ -18,8 +18,8 @@ function changeLogoToColor() {
     let textLong = document.getElementById("logoTextLong");
     
     image.src = "/assets/images/logo-color.png";
-    textShort.style.color = "hsl(220, 90%, 56%)";
-    textLong.style.color = "hsl(220, 90%, 56%)";
+    textShort.style.color = "#111111";
+    textLong.style.color = "#111111";
 }
 
 function changeLogoBack() {
@@ -28,8 +28,8 @@ function changeLogoBack() {
     let textLong = document.getElementById("logoTextLong");
 
     image.src = "/assets/images/logo.png";
-    textShort.style.color = "white";
-    textLong.style.color = "white";
+    textShort.style.color = "#111111";
+    textLong.style.color = "#111111";
 }
 
 const navbarBrand = document.getElementById('navbar-brand');

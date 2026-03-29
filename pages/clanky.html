@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Sora:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 </head>
 <body class="container">
 
     <!-- 1. ROW: HEADER -->
 
-    <header class="row text-bg-dark">
+    <header class="row">
       <nav class="navbar navbar-dark navbar-expand-lg py-3 px-3 px-md-5">
           <!-- brand - mobile variant -->
           <a class="navbar-brand d-md-none px-3 px-md-2" href="/index.html">
@@ -79,17 +79,23 @@
       <!-- 2. ROW: TLAČÍTKO -->
 
       <section id="poptavka" class="row bg-light py-5">
-        <div class="d-grid gap-2 col-8 col-md-5 mx-auto">
+        <div class="cta-shell">
+          <div>
+            <p class="eyebrow eyebrow-inverse">Poptávka</p>
+            <h2>Chcete podobné věci řešit s účetním po svém boku?</h2>
+          </div>
+          <div class="d-grid gap-2">
             <button class="btn btn-primary btn-lg text-uppercase fw-bold" onclick="openContactBox()"><h3 class="pt-2">Nezávazně poptat účetní služby</h3></button>
+          </div>
         </div>
       </section>
 
       <!-- 3. ROW: DALŠÍ ČLÁNKY -->
 
       <section id="dalsi-clanky" class="row bg-primary p-3 p-md-5">
-        
-        <div class="mb-4">
-          <h2 class="text-white text-center">Další články</h2>
+        <div class="section-heading px-0 mb-4">
+          <p class="eyebrow eyebrow-inverse">Články</p>
+          <h2 class="text-white">Další články</h2>
         </div>
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-2">
@@ -154,7 +160,7 @@
 
     <!-- 7. ROW: FOOTER -->
 
-    <footer class="row bg-dark text-center text-white">
+    <footer class="row text-center text-white">
       <div class="container p-4">
         <section class="mb-4">
           <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/matou%C5%A1-bur%C3%BD%C5%A1ek-a46459a0/" role="button" target="_blank">
@@ -201,16 +207,16 @@
     
               <ul class="list-unstyled mb-0">
                 <li>
-                  <a href="https://www.zakonyprolidi.cz/cs/1991-563" target=”_blank”>zákon o účetnictví</a>
+                  <a href="https://www.zakonyprolidi.cz/cs/1991-563" target="_blank">zákon o účetnictví</a>
                 </li>
                 <li>
-                  <a href="https://www.zakonyprolidi.cz/cs/1992-586" target=”_blank”>zákon o daních z příjmů</a>
+                  <a href="https://www.zakonyprolidi.cz/cs/1992-586" target="_blank">zákon o daních z příjmů</a>
                 </li>
                 <li>
-                  <a href="https://www.zakonyprolidi.cz/cs/2004-235" target=”_blank”>zákon o dani z přidané hodnoty</a>
+                  <a href="https://www.zakonyprolidi.cz/cs/2004-235" target="_blank">zákon o dani z přidané hodnoty</a>
                 </li>
                 <li>
-                  <a href="https://www.zakonyprolidi.cz/cs/2009-280" target=”_blank”>daňový řád</a>
+                  <a href="https://www.zakonyprolidi.cz/cs/2009-280" target="_blank">daňový řád</a>
                 </li>
               </ul>
             </div>
@@ -219,15 +225,15 @@
               <h5 class="text-uppercase fw-bold">KONTAKTUJTE MĚ</h5>
     
               <i class="bi bi-envelope"></i>&nbsp; <a href="mailto:info@ucetnictvi-burysek.cz">info@ucetnictvi-burysek.cz</a><br>
-              <i class="bi bi-house"></i>&nbsp; <address class="d-inline"><a href="https://goo.gl/maps/8BHBp8RZEeXn9wsz9" target=”_blank”>Cejl 467/65, 602 00 Brno</a></address><br>
+              <i class="bi bi-house"></i>&nbsp; <address class="d-inline"><a href="https://goo.gl/maps/8BHBp8RZEeXn9wsz9" target="_blank">Cejl 467/65, 602 00 Brno</a></address><br>
               <i class="bi bi-telephone"></i>&nbsp; <a href="tel:+420721880875">+420 721 880 875</a>
             </div>
 
             <div class="col-md-4 mb-4 mb-md-0">
               <h5 class="text-uppercase fw-bold">INFORMACE O PODNIKATELI</h5>
-                  Matouš Burýšek</br>
-                  vedení účetnictví</br>
-                  IČO: 08498181</br>
+                  Matouš Burýšek<br>
+                  vedení účetnictví<br>
+                  IČO: 08498181<br>
             </div>
           </div>
         </section>

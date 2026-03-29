@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Sora:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 </head>
 <body class="container">
 
     <!-- 1. ROW: HEADER -->
 
-    <header class="row text-bg-dark">
+    <header class="row">
         <nav class="navbar navbar-dark navbar-expand-lg py-3 px-3 px-md-5">
             <!-- brand - mobile variant -->
             <a class="navbar-brand d-md-none px-3 px-md-2" href="/index.html">
@@ -60,11 +60,40 @@
          <!-- 2. ROW: JUMBOTRON -->
 
          <section id="vedeni-ucetnictvi" class="row jumbotron">
-            <div class="p-3 p-md-5 rounded-3">
-                <div class="container-fluid py-5">
-                    <h1 class="display-5 fw-bold jumbotron-text">Vedení účetnictví</h1>
-                    <p class="col-md-8 fs-4 jumbotron-text">daňová evidence, podvojné účetnictví, mzdové účetnictví</p>
-                    <button class="btn btn-primary btn-lg" type="button" onclick="openContactBox()">Nezávazně poptat účetní služby</button>
+            <div class="hero-shell p-3 p-md-5 rounded-3">
+                <div class="hero-copy">
+                    <p class="eyebrow">Brno a okolí</p>
+                    <h1 class="display-5 fw-bold jumbotron-text">Účetnictví, které drží vaše podnikání v klidu.</h1>
+                    <p class="hero-lead">Podvojné účetnictví, mzdy a daňová evidence vedené přehledně, srozumitelně a bez zbytečného chaosu.</p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary btn-lg" type="button" onclick="openContactBox()">Nezávazně poptat účetní služby</button>
+                        <a class="btn btn-outline-dark btn-lg" href="/pages/kontakt.html">Zobrazit kontakt</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <span>Podnikatelé</span>
+                            <p>Daňová evidence a přiznání bez zbytečné administrativy.</p>
+                        </div>
+                        <div class="hero-stat">
+                            <span>Firmy</span>
+                            <p>Kompletní účetnictví, výkazy i komunikace s úřady.</p>
+                        </div>
+                        <div class="hero-stat">
+                            <span>Mzdy</span>
+                            <p>Zpracování mezd, exekucí i pracovních agend od A do Z.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-visual-card">
+                        <p class="eyebrow eyebrow-inverse">Služby</p>
+                        <ul class="hero-service-list list-unstyled mb-0">
+                            <li>Podvojné účetnictví</li>
+                            <li>Mzdové účetnictví</li>
+                            <li>Daňová evidence</li>
+                            <li>Daňová přiznání</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -72,9 +101,14 @@
         <!-- 3: ROW: SLUŽBY -->
 
         <section id="sluzby" class="row bg-light">
-            <div class="row px-3 px-md-5 pt-3 pt-md-5 pb-3 pb-md-3">
-                <div class="col-md">
-                    <article id="sluzby-ucetnictvi" class="row">
+            <div class="section-heading px-3 px-md-5">
+                <p class="eyebrow">Služby</p>
+                <h2>Co pro vás mohu převzít</h2>
+                <p>Moderní účetní servis postavený na rychlé orientaci v číslech, čisté komunikaci a důrazu na to, aby všechno dávalo smysl i vám, nejen systému.</p>
+            </div>
+            <div class="service-grid row px-3 px-md-5 pt-3 pt-md-4 pb-3 pb-md-3">
+                <div class="col-md-6">
+                    <article id="sluzby-ucetnictvi" class="service-card service-card-featured row">
                         <img class="col-auto" src="./assets/icons/ucetnictvi.png" width="64" height="64">
                         <div class="col">
                             <h3>Účetnictví</h3>
@@ -83,8 +117,8 @@
                         </div>
                     </article>
                 </div>
-                <div class="col-md">
-                    <article id="sluzby-mzdove-ucetnictvi" class="row">
+                <div class="col-md-6">
+                    <article id="sluzby-mzdove-ucetnictvi" class="service-card row">
                             <img class="col-auto" src="./assets/icons/mzdove-ucetnictvi.png" alt="ikona - mzdové účetnictví" width="64" height="64">
                             <div class="col">
                                 <h3>Mzdové účetnictví</h3>
@@ -94,9 +128,9 @@
                     </article>
                 </div>
             </div>
-            <div class="row px-3 px-md-5 pb-3 pb-md-4">
-                <div class="col-md">
-                    <article id="sluzby-danova-evidence" class="row">
+            <div class="service-grid row px-3 px-md-5 pb-3 pb-md-4">
+                <div class="col-md-6">
+                    <article id="sluzby-danova-evidence" class="service-card row">
                         <img class="col-auto" src="./assets/icons/danova-evidence.png" alt="ikona - daňová evidence" width="64" height="64">
                         <div class="col">
                             <h3>Daňová evidence</h3>
@@ -105,8 +139,8 @@
                         </div>
                     </article>
                 </div>
-                <div class="col-md">
-                    <article id="sluzby-danove-priznani" class="row">
+                <div class="col-md-6">
+                    <article id="sluzby-danove-priznani" class="service-card row">
                         <img class="col-auto" src="./assets/icons/danove-priznani.png" alt="ikona - daňové přiznání" width="64" height="64">
                         <div class="col">
                             <h3>Daňové přiznání</h3>
@@ -121,76 +155,83 @@
         <!-- 4. ROW: O MNĚ -->
 
         <section id="matous-burysek" class="row p-3 p-md-5">
-            <div class="d-md-none text-center">
-                <h2 class="mb-1">Matouš Burýšek</h2>
-                <h5 class="mb-1"><em>účetní, mzdový účetní</em></h5>
-            </div>
-
-            <img class="d-md-none d-md px-5" src="./assets/photos/nahodny-typek.png" alt="Matouš Burýšek - fotografie" width="200">
-            
-            <div class="col-md-auto">
-                <img class="d-none d-md-block" src="./assets/photos/nahodny-typek.png" alt="Matouš Burýšek - fotografie" width="300">    
-            </div>
-            
-            <div class="col-md">
-                <div class="d-none d-md-block">
-                    <h2 class="mb-1"><span class="word-background">Matouš Burýšek</span></h2>
-                    <h5 class="mb-4"><em>účetní, mzdový účetní</em></h5>
+            <div class="about-shell">
+                <div class="about-photo">
+                    <img class="d-md-none px-5" src="./assets/photos/nahodny-typek.png" alt="Matouš Burýšek - fotografie" width="200">
+                    <img class="d-none d-md-block" src="./assets/photos/nahodny-typek.png" alt="Matouš Burýšek - fotografie" width="300">
                 </div>
-
-                <p>V současné době podnikám v oblasti účetních poradců, vedení účetnictví, vedení daňové evidence a zpracování mezd. Při práci využívám účetní software POHODA a pro personalistiku a mzdy software PAMICA.</p>
-                
-                <h4 class="mt-4 mb-1"><span class="text-primary">► </span>Pracovní zkušenosti</h4>
-                <p>V roce 2018 jsem začínal na pozici junior účetní ve středně velké společnosti, kde jsem zpracovával vydané a přijaté faktury (tuzemské i zahraniční), evidoval majetek a spravoval skladové karty. V oce 2019 jsem přestoupil do účetní společnosti, která poskytovala ekonomické služby pro holding Vendeavour Service, na pozici samostatného účetního.</p>
-                
-                <h4 class="mt-4 mb-1"><span class="text-primary">► </span>Vzdělávání</h4>
-                <p>V poslední době jsem absolvoval kurzy Roční zúčtování mezd, Zdaňování příjmů ze závislé činnosti a Legislativní aktuality v vzdělávací agentuře INTEGRA CENTRUM, s.r.o. Jsem držitelem příslušných certifikátů.</p>
-
-                <h4 class="mt-4 mb-1"><span class="text-primary">► </span>Přístup k účetnictví</h4>
-                <p>Účetnictví je nástroj pro sledování a zobrazení stavů, toků a výsledků ekonomické činnosti. Snažím se, aby bylo vedeno správně, úplně, průkazně, srozumitelně a přehledně, a to zejména s ohledem na požadavky klienta.</p>
+                <div class="about-copy">
+                    <p class="eyebrow eyebrow-inverse">O mně</p>
+                    <h2 class="mb-1">Matouš Burýšek</h2>
+                    <h5 class="mb-4 text-secondary">účetní, mzdový účetní</h5>
+                    <p>V současné době podnikám v oblasti účetních poradců, vedení účetnictví, vedení daňové evidence a zpracování mezd. Při práci využívám účetní software POHODA a pro personalistiku a mzdy software PAMICA.</p>
+                    <div class="about-grid">
+                        <article class="about-card">
+                            <h4>Praxe</h4>
+                            <p>V roce 2018 jsem začínal na pozici junior účetní ve středně velké společnosti, kde jsem zpracovával vydané a přijaté faktury, evidoval majetek a spravoval skladové karty. V roce 2019 jsem přešel do účetní společnosti poskytující ekonomické služby pro holding Vendeavour Service, kde jsem působil jako samostatný účetní.</p>
+                        </article>
+                        <article class="about-card">
+                            <h4>Vzdělávání</h4>
+                            <p>Absolvoval jsem kurzy Roční zúčtování mezd, Zdaňování příjmů ze závislé činnosti a Legislativní aktuality ve vzdělávací agentuře INTEGRA CENTRUM, s.r.o. a jsem držitelem příslušných certifikátů.</p>
+                        </article>
+                        <article class="about-card about-card-wide">
+                            <h4>Přístup</h4>
+                            <p>Účetnictví vnímám jako nástroj, který má klientovi dávat přehled, jistotu a oporu pro rozhodování. Dbám na správnost, úplnost, průkaznost a srozumitelnost s ohledem na reálné potřeby konkrétního podnikání.</p>
+                        </article>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- 5. ROW TLAČÍTKO -->
 
         <section id="poptavka" class="row bg-light py-5">
-            <div class="d-grid gap-2 col-8 col-md-5 mx-auto">
-                <button class="btn btn-primary btn-lg text-uppercase fw-bold" onclick="openContactBox()"><h3 class="pt-2">Nezávazně poptat účetní služby</h3></button>
+            <div class="cta-shell">
+                <div>
+                    <p class="eyebrow eyebrow-inverse">Poptávka</p>
+                    <h2>Hledáte účetního partnera, na kterého je spoleh?</h2>
+                </div>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary btn-lg text-uppercase fw-bold" onclick="openContactBox()"><h3 class="pt-2">Nezávazně poptat účetní služby</h3></button>
+                </div>
             </div>
         </section>
 
         <!-- 6. ROW SOFTWARE -->
 
         <section id="ucetni-software" class="row p-3 p-md-5">
-            <article id="software-pohoda" class="row">
-                <div class="d-md-none text-center"><h3>Účtuji v POHODĚ</h3></div>
-                <img class="d-md-none px-5" src="./assets/images/POHODA-box.png" alt="logo POHODA - účetní software" width="200">
-                <div class="d-none d-md-block col-md-auto mx-auto">
-                    <img src="./assets/images/POHODA-box.png" alt="logo POHODA - účetní software" width="200">
-                </div>
-                <div class="col-md">
-                    <div class="d-none d-md-block"><h3><span class="text-primary">► </span>Účtuji v <span class="word-background">POHODĚ</span></h3></div>
-                    <p>POHODA umožňuje vést účetnictví i daňovou evidenci a vyhoví plátcům i neplátcům DPH. Systém je oborově neutrální a je vhodný nejen pro živnostníky, podnikatele a společnosti, které se zabývají obchodem a poskytováním služeb, ale i pro svobodná povolání a účtující příspěvkové a neziskové organizace.</p>            
-                </div>
-            </article>
-            <article id="software-pamica" class="row">
-                <div class="d-md-none text-center"><h3><span class="text-primary">► </span>Mzdy v <span class="word-background">PAMICE</span></h3></div>
-                <img class="d-md-none px-5" src="./assets/images/PAMICA-box.png" alt="logo PAMICA - software pro mzdové účetnictví" width="200">
-                <div class="d-none d-md-block col-md-auto mx-auto">
-                    <img src="./assets/images/PAMICA-box.png" alt="logo PAMICA - software pro mzdové účetnictví" width="200">
-                </div>
-                <div class="col-md">
-                    <div class="d-none d-md-block"><h3><span class="text-primary">► </span>Personalistika a mzdy v <span class="word-background">PAMICE</span></h3></div>
-                    <p>PAMICA je profesionální nástroj na vedení agend personalistiky, pracovních poměrů a zpracování mezd zaměstnanců. Tento software ocení firmy jak s vlastní personální kanceláří, nebo s větším počtem klientů, stejně tak účetní firmy vyžadující profesionální správu dat zaměstnanců a jejich mezd. Práce je možná samostatně ale s případnými exporty závazků a pohledávek do účetního programu POHODA. Aplikace podporuje případné xml importy z docházkových systémů.</p>
-                </div>
-            </article>
+            <div class="section-heading px-0">
+                <p class="eyebrow">Nástroje</p>
+                <h2>Pracuji v profesionálním účetním software</h2>
+                <p>Pro klienty to znamená stabilní procesy, přehledné výstupy a zázemí v nástrojích, které jsou v oboru ověřené.</p>
+            </div>
+            <div class="software-grid">
+                <article id="software-pohoda" class="software-card row">
+                    <div class="col-md-auto mx-auto">
+                        <img src="./assets/images/POHODA-box.png" alt="logo POHODA - účetní software" width="200">
+                    </div>
+                    <div class="col-md">
+                        <h3>Účtuji v <span class="word-background">POHODĚ</span></h3>
+                        <p>POHODA umožňuje vést účetnictví i daňovou evidenci a vyhoví plátcům i neplátcům DPH. Systém je vhodný pro živnostníky, podnikatele i společnosti zabývající se obchodem nebo službami, stejně jako pro svobodná povolání a neziskové organizace.</p>
+                    </div>
+                </article>
+                <article id="software-pamica" class="software-card software-card-dark row">
+                    <div class="col-md-auto mx-auto">
+                        <img src="./assets/images/PAMICA-box.png" alt="logo PAMICA - software pro mzdové účetnictví" width="200">
+                    </div>
+                    <div class="col-md">
+                        <h3>Mzdy a personalistika v <span class="word-background">PAMICE</span></h3>
+                        <p>PAMICA je profesionální nástroj pro vedení personální agendy, pracovních poměrů a zpracování mezd zaměstnanců. Umožňuje kvalitní správu dat i napojení na další systémy včetně exportů do programu POHODA.</p>
+                    </div>
+                </article>
+            </div>
         </section>
 
     </main>
 
     <!-- 7. ROW: FOOTER -->
 
-    <footer class="row bg-dark text-center text-white">
+    <footer class="row text-center text-white">
         <div class="container p-4">
           <section class="mb-4">
             <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/matou%C5%A1-bur%C3%BD%C5%A1ek-a46459a0/" role="button" target="_blank">
@@ -237,16 +278,16 @@
       
                 <ul class="list-unstyled mb-0">
                   <li>
-                    <a href="https://www.zakonyprolidi.cz/cs/1991-563" target=”_blank”>zákon o účetnictví</a>
+                    <a href="https://www.zakonyprolidi.cz/cs/1991-563" target="_blank">zákon o účetnictví</a>
                   </li>
                   <li>
-                    <a href="https://www.zakonyprolidi.cz/cs/1992-586" target=”_blank”>zákon o daních z příjmů</a>
+                    <a href="https://www.zakonyprolidi.cz/cs/1992-586" target="_blank">zákon o daních z příjmů</a>
                   </li>
                   <li>
-                    <a href="https://www.zakonyprolidi.cz/cs/2004-235" target=”_blank”>zákon o dani z přidané hodnoty</a>
+                    <a href="https://www.zakonyprolidi.cz/cs/2004-235" target="_blank">zákon o dani z přidané hodnoty</a>
                   </li>
                   <li>
-                    <a href="https://www.zakonyprolidi.cz/cs/2009-280" target=”_blank”>daňový řád</a>
+                    <a href="https://www.zakonyprolidi.cz/cs/2009-280" target="_blank">daňový řád</a>
                   </li>
                 </ul>
               </div>
@@ -255,15 +296,15 @@
                 <h5 class="text-uppercase fw-bold">Kontaktuje mě</h5>
       
                 <i class="bi bi-envelope"></i>&nbsp; <a href="mailto:info@ucetnictvi-burysek.cz">info@ucetnictvi-burysek.cz</a><br>
-                <i class="bi bi-house"></i>&nbsp; <address class="d-inline"><a href="https://goo.gl/maps/8BHBp8RZEeXn9wsz9" target=”_blank”>Cejl 467/65, 602 00 Brno</a></address><br>
+                <i class="bi bi-house"></i>&nbsp; <address class="d-inline"><a href="https://goo.gl/maps/8BHBp8RZEeXn9wsz9" target="_blank">Cejl 467/65, 602 00 Brno</a></address><br>
                 <i class="bi bi-telephone"></i>&nbsp; <a href="tel:+420721880875">+420 721 880 875</a>
               </div>
 
               <div class="col-md-4 mb-4 mb-md-0">
                 <h5 class="text-uppercase fw-bold">Informace o podnikateli</h5>
-                    Matouš Burýšek</br>
-                    vedení účetnictví</br>
-                    IČO: 08498181</br>
+                    Matouš Burýšek<br>
+                    vedení účetnictví<br>
+                    IČO: 08498181<br>
               </div>
             </div>
           </section>
